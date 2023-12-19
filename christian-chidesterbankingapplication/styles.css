@@ -1,0 +1,14 @@
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item .nav-link-description{
+    display: none;
+}
+
+.nav-item:hover .nav-link-description{
+    display: flex;
+    position: absolute;
+    width: 400px;
+}
